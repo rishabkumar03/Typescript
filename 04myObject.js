@@ -5,8 +5,10 @@ var User = {
     email: "rizz@lord.dev",
     isActive: true
 };
-var newUser = { name: "rishab", isPaid: false, email: "rizz@lord.com" };
-createUser(newUser);
-function createCourse() {
-    return { name: "AI with py", price: 499 };
-}
+var myUser = {
+    _id: "3452",
+    name: "rizz",
+    email: "r@rizz.com",
+    isActive: false
+};
+myUser.email = "rizz@gmail.com";
