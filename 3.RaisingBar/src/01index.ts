@@ -38,7 +38,7 @@ class User {
 
     set courseCount(courseNum) {
         if (courseNum <= 1) {
-            throw new Error("Course sount should be more than 1")
+            throw new Error("Course count should be more than 1")
         }
         this._courseCount = courseNum
     }
